@@ -3,4 +3,4 @@ echo "============================================="
 echo "======= MOBILECENTER POSTCLONE SCRIPT ======="
 echo "============================================="
 
-printenv
+printenv | grep MOBILECENTER_
