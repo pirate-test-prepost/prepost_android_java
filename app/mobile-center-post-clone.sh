@@ -1,2 +1,2 @@
-ls $(Agent.HomeDirectory)/scripts
+ls /Users/ci/agent/vstsagent/scripts
 echo "$name $password"
