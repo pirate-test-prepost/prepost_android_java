@@ -1,10 +1,7 @@
 apply plugin: 'com.android.application'
 
-ENV = System.getenv()
-USERNAME = ENV['username']
-PASSWORD = ENV['PASSWORD']
-
-println "variables [USERNAME] [PASSWORD]"
+println System.getenv('username')
+println System.getenv('password')
 
 android {
     compileSdkVersion 25
