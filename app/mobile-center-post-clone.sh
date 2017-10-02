@@ -1,1 +1,1 @@
-echo "$username $password"
+echo "username from env $envusername"
